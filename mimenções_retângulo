@@ -1,0 +1,9 @@
+    float calculaArea(float a, float b){ // Area = Base x Altura 
+    return(a * b);
+    }
+    float calculaPerimetro (float c, float d){ // Perímetro = 2 x Base + Altura 
+        return(2*(c+d));
+    }
+    float calculaDiametro (float e, float f){   // Diagonal = raiz da base ao quadrado + altura ao quadrado
+        return (sqrt(pow(e, 2)+pow(f, 2)));
+    }
